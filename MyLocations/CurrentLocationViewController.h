@@ -6,9 +6,6 @@
 //  Copyright (c) 2014年 Iino Daisuke. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
-
 @interface CurrentLocationViewController : UIViewController <CLLocationManagerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *messageLabel;
 @property (weak, nonatomic) IBOutlet UILabel *latitudeLabel;
