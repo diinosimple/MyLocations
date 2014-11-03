@@ -89,15 +89,6 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b8h-hC-I0F" id="La6-zw-fUV">
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="(Description goes here)" id="hEa-Md-0Vl">
-                                                    <rect key="frame" x="15" y="10" width="610" height="147"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="V9z-2A-gub" detailTextLabel="d8b-Ha-FCn" style="IBUITableViewCellStyleValue1" id="USE-Yu-bq1">
@@ -249,7 +240,6 @@
                         <outlet property="addressLabel" destination="mhX-Nu-yhb" id="Bt5-yZ-NLR"/>
                         <outlet property="categoryLabel" destination="d8b-Ha-FCn" id="lUI-aa-38K"/>
                         <outlet property="dateLabel" destination="2me-dV-Vaa" id="Keh-NS-4N5"/>
-                        <outlet property="descriptionTextView" destination="hEa-Md-0Vl" id="AfV-E6-giv"/>
                         <outlet property="latitudeLabel" destination="l7G-Pd-bGV" id="Pcs-Yy-EYp"/>
                         <outlet property="longitudeLabel" destination="aBd-Ln-Ams" id="6uv-kb-xfg"/>
                     </connections>
